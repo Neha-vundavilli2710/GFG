@@ -1,8 +1,6 @@
 class Solution:
     def sort012(self, arr):
-        low = 0
-        mid = 0
-        high = len(arr) - 1
+        low, mid, high = 0, 0, len(arr) - 1
 
         while mid <= high:
             if arr[mid] == 0:
